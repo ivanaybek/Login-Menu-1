@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: calibri;
+}
+
+::selection{
+    background: purple;
+    color: white;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #c31432, #240b36);
+}
+
+.main-div{
+    height: 320px;
+    width: 300px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(to right, #ff416d7e, #ff4b2be6);
+}
+
+.header{
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-family: calibri;
+    font-size: 42px;
+    margin: 12px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid white;
+}
+
+.form{
+    height: 220px;
+}
+
+.label{
+    display: block;
+    font-size: 22px;
+    margin-left: 28px;
+    margin-bottom: 12px;
+    color: white;
+}
+
+.email{
+    display: block;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    width: 240px;
+    height: 26px;
+    padding-left: 12px;
+    font-size: 20px;
+    animation: example 2s infinite;
+}
+
+.password{
+    display: block;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    width: 240px;
+    height: 26px;
+    padding-left: 12px;
+    font-size: 20px;
+    animation: example 2s infinite;
+}
+
+@keyframes example {
+    30% {opacity: 0.5;}
+    100% {opacity: 1;}
+}
+
+
+.btn{
+    display: block;
+    margin: 0 auto;
+    height: 48px;
+    width: 140px;
+    margin-top: 22px;
+    border: none;
+    border-radius: 8px;
+    font-size: 22px;
+    background: linear-gradient(to right, #c31432, #240b36);
+    color: white;
+    cursor: pointer;
+    animation: example 2s infinite;
+}
+
